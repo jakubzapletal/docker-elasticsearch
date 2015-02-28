@@ -21,10 +21,10 @@ RUN /elasticsearch/bin/plugin -install royrusso/elasticsearch-HQ
 # Define working directory.
 WORKDIR /data
 
-# Define default command.
-CMD ["/elasticsearch/bin/elasticsearch", "-Des.config=/elasticsearch/config/elasticsearch.yml"]
-
 # Expose ports.
 #   - 9200: HTTP
 #   - 9300: transport
 EXPOSE 9200 9300
+
+# Define default command.
+CMD ["/elasticsearch/bin/elasticsearch", "-Des.config=/elasticsearch/config/elasticsearch.yml"]
