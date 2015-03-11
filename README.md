@@ -1,7 +1,8 @@
 # ElasticSearch dockerfile
 
 This image contains a default configuration of ElasticSearch based on [jakubzapletal/java:openjdk-7-jre](https://github.com/jakubzapletal/docker-java/tree/openjdk-7-jre)
-and comes bundled with [ElasticHQ](https://github.com/royrusso/elasticsearch-HQ).
+Comes bundled with [ElasticHQ](https://github.com/royrusso/elasticsearch-HQ)
+and [Marvel](https://www.elastic.co/downloads/marvel)
 
 ## Using the Docker Hub
  
