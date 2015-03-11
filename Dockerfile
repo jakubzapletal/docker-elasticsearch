@@ -17,6 +17,7 @@ VOLUME ["/data"]
 ADD config/elasticsearch.yml /elasticsearch/config/elasticsearch.yml
 
 RUN /elasticsearch/bin/plugin -install royrusso/elasticsearch-HQ
+RUN /elasticsearch/bin/plugin -install elasticsearch/marvel/latest
 
 # Define working directory.
 WORKDIR /data
