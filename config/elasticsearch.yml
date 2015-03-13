@@ -2,3 +2,7 @@ path:
   data: /data/data
   logs: /data/log
   work: /data/work
+
+cluster:
+  name: es_claster
+
